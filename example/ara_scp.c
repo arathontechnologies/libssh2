@@ -39,7 +39,7 @@ int main(int argc, char *argv[])
     LIBSSH2_SESSION *session;
     LIBSSH2_CHANNEL *channel;
     const char *username = "sshtun";
-    const char *password = "password";
+    const char *password = "JIvj39*328v*#98Jk";
     const char *scppath = "/transfer";
     libssh2_struct_stat fileinfo;
     int rc;

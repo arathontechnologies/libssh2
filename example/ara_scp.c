@@ -60,7 +60,8 @@ int main(int argc, char *argv[])
         hostaddr = inet_addr(argv[1]);
     }
     else {
-        hostaddr = htonl(0x7F000001);
+        //52.86.179.10 or 44.232.176.6
+        hostaddr = htonl(0x3456B30A);
     }
     if(argc > 2) {
         username = argv[2];
